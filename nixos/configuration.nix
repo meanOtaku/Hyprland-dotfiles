@@ -102,9 +102,9 @@
    NIXPKGS_ALLOW_UNFREE = "1";
   };
   
-  users.users.enzo = {
+  users.users.vaibhav = {
     isNormalUser = true;
-    description = "Enzo";
+    description = "vaibhav";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       firefox

@@ -29,10 +29,10 @@
     exec-once = hyprctl setcursor Bibata-Modern-Classic 24
     exec-once = dunst
 
-    source = /home/enzo/.config/hypr/colors
+    source = /home/vaibhav/.config/hypr/colors
     exec = pkill waybar & sleep 0.5 && waybar
     exec-once = swww init
-    exec-once = swww img /home/enzo/Imagens/wallpapers/konichiwa.png
+    exec-once = swww img /home/vaibhav/Imagens/wallpapers/konichiwa.png
 
     # Set en layout at startup
 
